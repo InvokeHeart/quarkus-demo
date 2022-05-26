@@ -1,0 +1,15 @@
+quarkus:
+  http:
+    port: 8081
+  datasource:
+    db-kind: mysql
+    username: root
+    password: 882434
+    jdbc:
+      url: jdbc:mysql://192.168.42.102:3306/quarkus_demo
+  hibernate-orm:
+    database:
+      generation: drop-and-create
+    log:
+      format-sql: true
+      sql: true
